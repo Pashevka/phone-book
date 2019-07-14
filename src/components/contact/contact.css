@@ -1,0 +1,18 @@
+.app-contact-wrapper {
+    transform: translateX(100%);
+    transition: 0.3s;
+}
+.app-contact-wrapper.shown{
+	transform: none;
+}
+.app-contact ul .name {
+	width: 50%;
+}
+.app-contact ul .phone {
+	width: 50%;
+	text-align: right;
+	margin-right: 16px;
+}
+.app-contact ul .button {
+	width: 60px;
+}

@@ -1,0 +1,12 @@
+.create-new {
+	margin: 0 -1.25rem;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	transform: translate(100%, -78%);
+	transition: 0.3s;
+}
+.create-new.visible {
+	transform: translate(0%, -78%);
+	transition: 0.3s;
+}
