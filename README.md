@@ -32,7 +32,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 If you have problems running the application, you can do the following:
 
 To enable json-server use:
-### `npm run json-server --watch db.json --port=3001`
+### `npm run json-server`
 
 To run application use:
 ### `npm run start-react`
