@@ -22,7 +22,7 @@ export default class ApiService {
 		return await res.json()
 	}
 	async getContacts(page) {
-		const res = await fetch(`${this._apiBase}/contacts?_page=${page}&_limit=4`, this.getOptions('GET'))
+		const res = await fetch(`${this._apiBase}/contacts?_page=${page}`, this.getOptions('GET'))
 
 		if (!res.ok) {
 			return new Error('Can`t fetch data. Are you enable json-server')
